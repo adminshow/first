@@ -1,0 +1,44 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="format-detection" content="telephone=no,email=no,adress=no">
+
+
+
+
+@charset "utf-8";
+*{
+  margin:0px;
+  padding:0px;
+  text-decoration:none;
+  box-sizing:border-box;
+  font-size:.14rem;
+  font-style:normal;
+  font-weight:normal;
+}
+ul,li{
+  list-style:none;
+}
+html{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+    font-size:625%;
+}
+img,div,body,html,ul,li,a{
+ -webkit-touch-callout: none; 
+ }
+ input,button{
+ outline:0;
+
+ }
+/*  input,textarea,button{
+ -webkit-appearance: none;
+ -moz-appearance: none ;
+ appearance: none ;
+} */
+ button{
+ cursor:pointer;
+ }
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
+    color: #ccc;
+}
